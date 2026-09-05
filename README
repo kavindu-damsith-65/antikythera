@@ -1,6 +1,27 @@
-Builds a parse tree of each controller using Java Parser. Then the dependencies are identified and copied across as needed. A design decision was made that dependency DTOs are copied rather than relying on their presence in a jar file.
-The reason being that this approach will result in the code throwing an exception when a DTO in the Application Under Test get's changed.
+# Antikythera â€” Spring Test Automation
 
-In the context of Antikythera, AUT means Application Under Test rather than the name of the bitbucket project of which this is a part of.
+My fork of Antikythera, an open-source tool for generating tests for Spring applications. During my internship at Cloud Solutions International, I tested the dependency solver, investigated edge cases, and contributed reliability improvements.
 
+## What this repository covers
 
+- Spring controller parsing with JavaParser
+- Dependency, DTO, interface, and repository resolution
+- Runtime evaluation and test-generation utilities
+- Unit and integration test coverage
+
+## Technology
+
+`Java` Â· `Spring` Â· `JavaParser` Â· `Maven` Â· `JUnit`
+
+## Project status
+
+Open-source fork with internship contributions
+
+## Related links
+
+- [Original project context](https://github.com/Cloud-Solutions-International/antikythera)
+- [Portfolio](https://kavindudamsith.tech/#work)
+
+---
+
+Built by [Kavindu Damsith](https://kavindudamsith.tech/) Â· [LinkedIn](https://www.linkedin.com/in/kavindu-damsith-86696722a/) Â· [Email](mailto:kavindudamsith65@gmail.com)
